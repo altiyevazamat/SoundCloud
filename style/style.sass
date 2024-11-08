@@ -1,0 +1,409 @@
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: "Roboto"
+
+header
+    height: 100%
+    width: 20%
+    min-height: 100%
+    display: flex
+    flex-direction: column
+    padding-left: 32px
+    background-color: white
+    border-right: 1px solid rgba(255, 127, 58, 0.412)
+
+
+ 
+ 
+
+  
+    
+
+body
+    background-color: rgb(235,241,253)
+    display: flex
+
+    max-height: 100vh
+
+a
+    text-decoration: none
+
+li
+    list-style-type: none
+
+
+.header_logo
+    margin-top: 44px
+    
+    a
+        color: rgb(46, 50, 113)
+        text-decoration: none
+        font-family: Poppins
+        font-size: 25px
+        font-weight: 600
+        line-height: 38px
+        display: flex
+        align-items: center
+        gap: 15px
+
+.menu
+    margin-top: 60px
+    p
+        text-transform: uppercase
+        font-size: 15px
+        font-weight: 400
+        color: rgba(124, 141, 181, 0.72)
+
+
+.menu_ul
+    display: flex
+    flex-direction: column
+    gap: 26px
+    background-color: white
+    li:first-child
+        margin-bottom: 6.5px
+        margin-top: 32.5px
+    li
+        list-style-type: none
+        display: flex
+
+        gap: 10px
+        align-items: center 
+        img
+            margin-right: 10px
+        a
+            text-decoration: none
+            color: rgb(46, 50, 113)
+            font-size: 15px
+            font-weight: 400
+            letter-spacing: 1px
+            display: flex
+            align-items: center
+
+.general
+    background-color: white
+    width: 100%
+    ul
+        margin-top: 25px
+        display: flex
+        flex-direction: column
+        gap: 25px
+    ul      li
+        list-style-type: none
+        align-items: center 
+    a
+        text-decoration: none
+        color: rgb(46, 50, 113)
+        font-size: 15px
+        font-weight: 400
+        letter-spacing: 1px
+        display: flex
+        align-items: center
+    p
+        text-transform: uppercase
+        text-transform: uppercase
+        font-size: 15px
+        font-weight: 400
+        color: rgba(124, 141, 181, 0.72)   
+        margin-top: 47px
+    img
+        margin-right: 10px
+
+.mobile
+    padding-bottom: 24px
+
+.mobile_go
+    text-transform: uppercase
+    text-transform: uppercase
+    font-size: 15px
+    font-weight: 400
+    color: rgba(124, 141, 181, 0.72)   
+    margin-top: 121px
+
+.mobile_apps
+    display: flex
+    gap: 20px
+    margin-top: 25px
+
+.privacy
+    color: rgba(124, 141, 181, 0.72)
+    font-size: 14px
+    font-weight: 400
+    line-height: 20px
+    letter-spacing: 1%
+    text-align: left    
+    width: 250px
+    margin-top: 20px
+
+.section_main
+    max-width: 76%  
+    height: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.navigation_profile
+    margin-top: 44px 
+    display: flex
+    align-items: center
+    height: 50px
+    width: 92%
+    justify-content: space-between
+
+
+
+.navigation
+    display: flex
+    height: 30px
+    align-items: center
+    gap: 12px
+    
+
+.navigation_first
+    color: rgb(46, 50, 113)
+    font-size: 24px
+    font-weight: 400
+    line-height: -1px
+    letter-spacing: 1%
+    text-align: left
+
+.navigation_second
+    color: rgba(46, 50, 113, 0.5)
+    font-size: 24px
+    font-weight: 400
+    line-height: -1px
+    letter-spacing: 1%
+
+.navigation_arrow::before
+    content: url('/images/arrow_right.svg')
+
+.profile
+    width: 165px
+    height: 50px
+    display: flex
+    align-items: center
+    gap: 16px
+    .profile_name__status
+        .profile_name
+            color: rgb(46, 50, 113)
+            font-size: 16px
+            font-weight: 600
+            line-height: -1px
+            letter-spacing: 0%
+        .profile_status
+            color: rgba(124, 141, 181, 0.72)
+            font-size: 12px
+            font-weight: 400
+            line-height: -1px
+            letter-spacing: 0%
+
+
+.profile_arrow
+    width: 26px
+    display: flex
+    justify-content: center
+
+.charts
+    height: 315px
+    width: 92%
+    margin-top: 32px
+    background-color: white
+    border-radius: 40px
+    display: flex
+    flex-wrap: wrap
+
+.charts_top_switch
+    display: flex
+    width: 100%
+    height: 56px
+    justify-content: space-between
+    margin: 16px 22px 0 32px
+    align-items: center
+
+.charts_top
+    color: rgb(46, 50, 113)
+    font-size: 20px
+    font-weight: 700
+    line-height: -1px
+    letter-spacing: 1px
+
+.charts_switch
+    width: 92px
+    padding: 20px
+    display: flex
+    justify-content: space-between
+
+.charts_items
+    display: flex
+    margin-left: 32px
+    gap: 32px
+    overflow: auto
+
+.charts_items::-webkit-scrollbar 
+  width: 0
+
+
+.charts_item
+    width: 159px
+    height: 204px
+    border: 1px solid rgba(255, 127, 58, 0.143)
+    border-radius: 12px
+    display: flex
+    padding: 15px
+    justify-content: center
+    position: relative
+
+.play_button_container
+    background-color: rgba(124, 141, 181, 0.75)
+    border-radius: 100%
+    padding: 10px
+    height: 32px
+    width: 32px
+    position: absolute
+    top: 30%
+    left: 40%
+    display: flex
+    align-items: center
+    justify-content: center
+
+.album_name
+    color: rgb(46, 50, 113)
+    font-size: 16px
+    font-weight: 400
+    line-height: -1px
+    letter-spacing: 1%
+
+.album_disc
+    color: rgba(124, 141, 181, 0.75)
+    font-size: 14px
+    font-weight: 400
+    line-height: -1px
+    letter-spacing: 1%
+
+.history_player
+    width: 92%
+    display: flex
+    justify-content: space-between
+    
+
+.lis_history
+    height: 442px
+    width: 74%
+    margin-top: 32px
+    background-color: white
+    border-radius: 40px
+    padding: 32px 32px 0 32px
+    
+    
+.music_player
+    height: 442px
+    width: 25%
+    margin-top: 32px
+    background-color: white
+    border-radius: 40px
+
+.lis_history
+    background: rgba(255, 255, 255, 0.8)
+
+    
+    
+.lis_list
+    height: 87%
+    display: flex
+    flex-direction: column
+    gap: 32px
+    overflow: scroll
+   
+    
+
+.lis_list::-webkit-scrollbar 
+  width: 0
+
+.lis_info
+    display: flex
+    justify-content: space-between
+    padding: 0 0 24px 0
+    border-radius: 40px
+    box-shadow: 2px 0px 25px 2px rgba(0, 0, 0, 0.02)
+    p
+        color: rgb(46, 50, 113)
+        font-size: 20px
+        font-weight: 700
+        line-height: -1px
+        letter-spacing: 1px
+    a
+        color: rgba(124, 141, 181, 0.72)
+        font-size: 15px
+        font-weight: 400
+        line-height: -1px
+        letter-spacing: 0%
+
+.lis_item_stats
+    display: flex
+    gap: 20px
+    position: absolute
+    top: -13px
+    right: 0
+    margin-right: 48px
+
+.lis_item_stats_item
+    padding: 14px
+    display: flex
+    border-radius: 14px
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.06)
+
+.lis_item_total
+    gap: 10px
+
+.lis_item
+    align-items: center
+    justify-content: space-between
+    width: 100%
+    display: flex
+    position: relative
+    padding: 21px 0 8px 0
+    box-shadow: 0px 25px 40px 0px rgba(0, 0, 0, 0.02)
+    background: rgb(255, 255, 255)
+
+.lis_item_info
+    display: flex
+    align-items: center
+    gap: 30px
+
+.lis_item_name
+    color: rgb(46, 50, 113)
+    font-size: 16px
+    font-weight: 400
+    line-height: -1px
+    letter-spacing: 1%
+
+.lis_item_artist
+    color: rgba(124, 141, 181, 0.72)
+    font-size: 14px
+    font-weight: 400
+    line-height: -1px
+    letter-spacing: 1%
+
+.list_item_info_disc
+    display: flex
+    flex-direction: column
+    gap: 8px
+
+@media only screen and (max-width : 1200px)  
+    header
+        display: none
+    .section_main
+        min-width: 100%  
+    .history_player
+        flex-wrap: wrap
+    .lis_history
+        width: 100%
+    .music_player
+        height: 200px
+        width: 100%
+        margin: 0 auto
+        margin-top: 32px
+        background-color: white
+        border-radius: 40px
