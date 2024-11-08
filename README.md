@@ -1,3 +1,3 @@
 # SoundCloud
 <h1>https://altiyevazamat.github.io/SoundCloud/</h1>
-![alt text](SC.jpg)
+![screen](https://github.com/altiyevazamat/SoundCloud/blob/main/SC.jpg)
